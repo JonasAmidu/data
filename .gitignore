@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv/
+venv/
+
+# Data files (keep raw data, ignore processed)
+*.csv
+*.parquet
+!data/raw/*.csv
+!data/raw/*.parquet
+
+# Models (ignore large model files)
+*.h5
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+.idea/
